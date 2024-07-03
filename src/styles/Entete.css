@@ -8,17 +8,19 @@
 }
 
 .container_entete h1 {
-    font-size: 64px;
+    font-size: 100px;
     font-weight: bolder;
+    color: #1F3149;
 }
 
 .container_entete p {
-    font-size: 20px;
+    font-size: 24px;
     margin-bottom: 10rem;
     padding-top: 5rem;
     padding-left: 25rem;
     padding-right: 25rem;
     text-align: justify;
+    color: #1F3149;
 }
 
 .container_entete span {
@@ -30,7 +32,7 @@ color: #BF3434;
     background-color: #F2CBC2;
     border: none;
     border-radius: 2rem;
-    color: black;
+    color: #1F3149;
     font-size: 32px;
     transition: 1s;
 }
