@@ -7,12 +7,12 @@ export default function NavBar() {
   return (
     <nav className="container_navbar">
       <header className="logo_profil">
-        <Link to="/">
         <img src={logoProfil} alt="logo profil" />
-        </Link>
       </header>
       <figure className="logo_site">
+        <Link to="/">
         <img src={logoSite} alt="logo du site" />
+        </Link>
       </figure>
       <section className="langue_fr">
         <p>FR</p>
