@@ -5,15 +5,12 @@
   align-items: center;
   color: #FFFDF3;
   height: 100px;
-  gap: 12rem;
 }
 
 .logo_profil img {
     width: 53px;
 }
 
-.logo_site {
-  color: #FFFDF3;
-  font-size: 35px;
-  font-weight: bold;
+.logo_site img {
+  height: 4rem;
 }

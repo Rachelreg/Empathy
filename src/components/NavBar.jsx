@@ -1,4 +1,5 @@
 import logoProfil from "../assets/icon_profil.png";
+import logoSite from "../assets/logo_site.png"
 import "../styles/NavBar.css";
 
 export default function NavBar() {
@@ -8,7 +9,7 @@ export default function NavBar() {
         <img src={logoProfil} alt="logo profil" />
       </div>
       <div className="logo_site">
-        <h1>LOGO</h1>
+        <img src={logoSite} alt="logo du site" />
       </div>
       <div className="langue_fr">
         <p>FR</p>
