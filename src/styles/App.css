@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
     margin: 0;
+    font-family: arial;
 }
 :root{
     --primary-color: #1F3149;
