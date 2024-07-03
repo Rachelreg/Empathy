@@ -10,7 +10,7 @@ export default function Footer() {
   return (
     <div className="footerContainer">
       <h1 className="center">
-        Le leader français du jeu digital en entreprise
+        Leader Français du jeu digital en entreprise
       </h1>
       <section className="rows">
         <section className="button">
@@ -22,12 +22,6 @@ export default function Footer() {
           <Link to="/" alt="lien de sensibilisation">
             <p>Sensibilisation</p>
           </Link>
-          <Link to="/" alt="lien des ressources humaines">
-            <p>Ressources Humaines</p>
-          </Link>
-          <Link to="/" alt=" link of Learning & Development">
-            <p>Learning & Development</p>
-          </Link>
           <Link to="/" alt="link of Marketing & Branding">
             <p>Marketing & Branding</p>
           </Link>
@@ -36,20 +30,11 @@ export default function Footer() {
           <Link to="/" alt="liens de la page qui sommes nous">
             <p>Qui sommes nous ?</p>
           </Link>
-          <Link to="/" alt="lien d'information sur nos clients">
-            <p>Nos clients</p>
-          </Link>
           <Link to="/" alt="lien pour découvrir notre équipe">
-            <p>Équipe</p>
-          </Link>
-          <Link to="/" alt="lien sur la sécurité">
-            <p>Sécurité</p>
+            <p>L'équipe</p>
           </Link>
         </section>
         <section className="basDeFooter">
-          <Link to="/" alt="lien sur les mentions légales">
-            <p>Mention Légale</p>
-          </Link>
           <Link to="mailto:regulierrachel@gmail.com" target="_blank">
             <p>Contact</p>
           </Link>
