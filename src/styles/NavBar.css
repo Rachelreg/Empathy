@@ -1,0 +1,19 @@
+.container_navbar {
+  background: #1f3149;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #FFFDF3;
+  height: 100px;
+  gap: 12rem;
+}
+
+.logo_profil img {
+    width: 53px;
+}
+
+.logo_site {
+  color: #FFFDF3;
+  font-size: 35px;
+  font-weight: bold;
+}
