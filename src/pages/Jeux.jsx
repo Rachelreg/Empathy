@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "../styles/Jeux.css"
 
 export default function Jeux() {
@@ -6,7 +7,9 @@ export default function Jeux() {
         <section className="p_jeux">
             <p>Allez à la rencontre de vos collègues en vous rendant dans une salle</p>
         </section>
+        <Link to="/beforequest1">
 <button className="button1_game"></button>
+        </Link>
 <button className="button2_game"></button>
 <button className="button3_game"></button>
 <button className="button4_game"></button>
