@@ -1,0 +1,42 @@
+.container_entete {
+    display: flex;
+    padding: 10rem;
+    background-color: #FFFDF3;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_entete h1 {
+    font-size: 64px;
+    font-weight: bolder;
+}
+
+.container_entete p {
+    font-size: 20px;
+    margin-bottom: 10rem;
+    padding-top: 5rem;
+    padding-left: 25rem;
+    padding-right: 25rem;
+    text-align: justify;
+}
+
+.container_entete span {
+color: #BF3434;
+}
+
+.button_game {
+    padding: 1.5rem;
+    background-color: #F2CBC2;
+    border: none;
+    border-radius: 2rem;
+    color: black;
+    font-size: 32px;
+    transition: 1s;
+}
+
+.button_game:hover {
+    background-color: #1F3149;
+    color: #FFFDF3;
+}
+
