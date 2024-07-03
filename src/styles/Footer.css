@@ -2,8 +2,8 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: #1f3149;
-  color: #fffdf3;
+  background-color: var(--primary-color);
+  color: var(--second-color);
   height: 15rem;
   
   h1 {
@@ -14,7 +14,7 @@
   }
   
   a{
-    color: #fffdf3;
+    color: var(--second-color);
     text-decoration: none;
   }
   .rows {
@@ -26,16 +26,16 @@
   
   button {
     padding: 0.7rem;
-    background-color: #f2cbc2;
+    background-color: var(--sixth-color);
     border: none;
     border-radius: 2rem;
-    color: #1f3149;
+    color: var(--primary-color);
     font-size: 18px;
     transition: 1s;
   }
   button:hover {
-    background-color: #6d86a6;
-    color: #fffdf3;
+    background-color: var(--fourth-color);
+    color: var(--second-color);
   }
 
   p {

@@ -1,9 +1,9 @@
 .container_navbar {
-  background: #1f3149;
+  background: var(--primary-color);
   display: flex;
   justify-content: space-around;
   align-items: center;
-  color: #FFFDF3;
+  color: var(--second-color);
   height: 100px;
 }
 

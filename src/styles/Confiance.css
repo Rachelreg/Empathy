@@ -1,6 +1,6 @@
 .globaleConfiance {
-  background-color: #6d86a6;
-  color: #fffdf3;
+  background-color: var(--fourth-color);
+  color: var(--second-color);
   display: flex;
   flex-direction: column;
   height: 40rem;
