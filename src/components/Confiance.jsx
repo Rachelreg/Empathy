@@ -2,10 +2,14 @@ import Avatar1 from "../assets/Avatar1.jpg";
 import Avatar2 from "../assets/Avatar2.jpg";
 import Avatar3 from "../assets/Avatar3.jpg";
 
+import "../styles/Confiance.css"
+
 export default function Confiance() {
   return (
-    <section>
+    <section className="globaleConfiance">
       <h1>Ils nous ont fait confiance !</h1>
+      
+      <section className="globalConfiance">
 
       <section className="Avatar1">
         <img src={Avatar1} alt="Avatar1" />
@@ -15,6 +19,7 @@ export default function Confiance() {
           dans notre entreprises. Fortement recommandé !"
         </p>
       </section>
+
       <section className="Avatar2">
         <img src={Avatar2} alt="Avatar2" />
         <p>
@@ -24,6 +29,7 @@ export default function Confiance() {
           nos équipes."
         </p>
       </section>
+
       <section className="Avatar3">
         <img src={Avatar3} alt="Avatar3" />
         <p>
@@ -32,6 +38,8 @@ export default function Confiance() {
           l'inclusion tout en s'amusant. Une ressource éducative incontournable
           !"
         </p>
+      </section>
+      
       </section>
     </section>
   );
