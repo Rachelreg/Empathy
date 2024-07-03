@@ -1,8 +1,10 @@
+import Entete from "../components/Entete";
+
 export default function Accueil() {
   return (
     <>
-      <h1>Accueil</h1>
-      <p>toto</p>
+      
+      <Entete/>
     </>
   );
 }
