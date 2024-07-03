@@ -8,40 +8,40 @@ import "../styles/Footer.css";
 
 export default function Footer() {
   return (
-    <div className="footerContainer">
+    <footer className="footerContainer">
       <h1 className="center">
         Leader Français du jeu digital en entreprise
       </h1>
       <section className="rows">
-        <section className="button">
+        <article className="button">
           <Link to="mailto:regulierrachel@gmail.com" target="_blank">
             <button>Demande de démo</button>
           </Link>
-        </section>
-        <section className="firstCol">
+        </article>
+        <nav className="firstCol">
           <Link to="/" alt="lien de sensibilisation">
             <p>Sensibilisation</p>
           </Link>
           <Link to="/" alt="link of Marketing & Branding">
             <p>Marketing & Branding</p>
           </Link>
-        </section>
-        <section className="secondCol">
+        </nav>
+        <nav className="secondCol">
           <Link to="/" alt="liens de la page qui sommes nous">
             <p>Qui sommes nous ?</p>
           </Link>
           <Link to="/" alt="lien pour découvrir notre équipe">
             <p>L'équipe</p>
           </Link>
-        </section>
-        <section className="basDeFooter">
+        </nav>
+        <nav className="basDeFooter">
           <Link to="mailto:regulierrachel@gmail.com" target="_blank">
             <p>Contact</p>
           </Link>
           <Link to="/" alt="lien des CGV">
             <p>CGV</p>
           </Link>
-        </section>
+        </nav>
         <section className="allLogos">
           <Link
             to="https://github.com"
@@ -80,6 +80,6 @@ export default function Footer() {
           </Link>
         </section>
       </section>
-    </div>
+    </footer>
   );
 }

@@ -10,26 +10,26 @@ export default function Confiance() {
       <h1>Ils nous ont fait confiance !</h1>
 
       <section className="globalConfiance">
-        <section className="Avatar1">
+        <article className="Avatar1">
           <img src={Avatar1} alt="Avatar1" />
           <p>
             "Un site incroyable pour apprendre sur l'inclusion ! Les jeux sont
             divertissants et éducatifs. Idéal pour sensibiliser à la diversité
-            dans notre entreprises. Fortement recommandé !"
+            dans notre entreprises. Nous recommandons fortement !"
           </p>
-        </section>
+        </article>
 
-        <section className="Avatar2">
+        <article className="Avatar2">
           <img src={Avatar2} alt="Avatar2" />
           <p>
-            "Empathy propose des alternatives ludiques qui sont excellentes
-            pour comprendre l'inclusion. Faciles d'accès, ils abordent des
-            sujets complexes de manière ludique. Un outil précieux pour
-            l'intégration de nos équipes."
+            "Empathy propose des alternatives ludiques qui sont excellentes pour
+            comprendre l'inclusion. Faciles d'accès, ils abordent des sujets
+            complexes de manière ludique. Un outil précieux pour l'intégration
+            de nos équipes."
           </p>
-        </section>
+        </article>
 
-        <section className="Avatar3">
+        <article className="Avatar3">
           <img src={Avatar3} alt="Avatar3" />
           <p>
             "Super expérience avec ce site ! Les jeux sont interactifs et très
@@ -37,7 +37,7 @@ export default function Confiance() {
             l'inclusion tout en s'amusant. Une superbe ressource éducative
             incontournable !"
           </p>
-        </section>
+        </article>
       </section>
     </section>
   );
