@@ -1,4 +1,4 @@
-.container_games {
+.container_games2 {
   display: flex;
   position: relative;
   width: 100vw;
@@ -8,7 +8,7 @@
   z-index: 0;
 }
 
-.container_games::before {
+.container_games2::before {
   content: "";
   position: absolute;
   top: 0;

@@ -4,7 +4,7 @@ import avatar from "../assets/fauteuil_image.png";
 
 export default function JeuxDebut() {
   return (
-    <section className="container_games">
+    <section className="container_games2">
         <section className="test">
 
       <section className="mess_bvn">
