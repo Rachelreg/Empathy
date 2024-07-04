@@ -1,44 +1,43 @@
 .container_entete {
-    display: flex;
-    padding: 10rem;
-    background-color: var(--second-color);
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  padding: 10rem 7rem;
+  background-color: var(--second-color);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .container_entete h1 {
-    font-size: 100px;
-    font-weight: bolder;
-    color: var(--primary-color);
+  font-size: 100px;
+  font-weight: bolder;
+  color: var(--primary-color);
 }
 
 .container_entete p {
-    font-size: 24px;
-    margin-bottom: 10rem;
-    padding-top: 5rem;
-    padding-left: 25rem;
-    padding-right: 25rem;
-    text-align: justify;
-    color: var(--primary-color);
+  font-size: 24px;
+  margin-bottom: 10rem;
+  padding-top: 5rem;
+  padding-left: 25rem;
+  padding-right: 25rem;
+  text-align: justify;
+  color: var(--primary-color);
 }
 
 .container_entete span {
-color: var(--fiveth-color);
+  color: var(--fiveth-color);
 }
 
 .button_game {
-    padding: 1.5rem;
-    background-color: var(--sixth-color);
-    border: none;
-    border-radius: 2rem;
-    color: var(--primary-color);
-    font-size: 32px;
-    transition: 1s;
+  padding: 1.5rem;
+  background-color: var(--sixth-color);
+  border: none;
+  border-radius: 2rem;
+  color: var(--primary-color);
+  font-size: 32px;
+  transition: 1s;
 }
 
 .button_game:hover {
-    background-color: var(--primary-color);
-    color: var(--second-color);
+  background-color: var(--primary-color);
+  color: var(--second-color);
 }
-
