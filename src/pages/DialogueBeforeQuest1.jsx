@@ -4,6 +4,7 @@ import avatarFemale from "../assets/avatar_female.png";
 import avatarFauteuil from "../assets/fauteuil_image.png";
 
 import { Link } from "react-router-dom";
+import Question from "../components/Question";
 
 export default function DialogueBeforeQuest1() {
   return (
@@ -32,8 +33,8 @@ export default function DialogueBeforeQuest1() {
           </section>
         </section>
         <section className="button_next_container">
-            <Link to="toto">
-          <button className="button_next ">Suivant</button>
+            <Link to="/question1" > 
+          <button className="button_next">Suivant</button>
             </Link>
         </section>
       </section>
