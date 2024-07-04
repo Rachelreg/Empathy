@@ -10,7 +10,7 @@ export default function Footer() {
   return (
     <footer className="footerContainer">
       <h1 className="center">
-        Engagés pour un avenir inclusif et solidaire, ensemble faisons la
+        Engagé pour un avenir inclusif et solidaire, ensemble faisons la
         différence.
       </h1>
       <section className="rows">
@@ -38,6 +38,7 @@ export default function Footer() {
             <p>CGV</p>
           </Link>
         </nav>
+          </section>
         <section className="allLogos">
           <Link
             to="https://github.com"
@@ -75,7 +76,6 @@ export default function Footer() {
             <img src={twitterx} alt="logo de X" />
           </Link>
         </section>
-      </section>
     </footer>
   );
 }
