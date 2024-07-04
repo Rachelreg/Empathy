@@ -16,7 +16,6 @@ export default function Jeux() {
 <button className="button5_game"></button>
 <button className="button6_game"></button>
 <button className="button7_game"></button>
-
     </section>
   );
 }
