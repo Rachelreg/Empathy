@@ -10,7 +10,7 @@
   background-size: 100% 100%;
   width: 100vw;
   height: 100vh;
-  padding: 2rem; /* Ajoute un padding interne au conteneur */
+
   position: relative; /* Nécessaire pour positionner les éléments enfants */
 }
 

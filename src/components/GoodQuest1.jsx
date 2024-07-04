@@ -1,0 +1,27 @@
+import "../styles/GoodQuest1.css";
+import reponse from "../assets/tete-reponse.png";
+import { Link } from "react-router-dom";
+
+export default function GoodQuest1() {
+  return (
+    <div className="goodquest">
+      <img className="avatar-quest" src={reponse} alt="tete de l'avatar" />
+      <div className="modal">
+        <h1>
+          QUESTION N°1 <br /> L’ACCÈS PMR
+        </h1>
+        <h2>Bonne réponse !</h2>
+        <p>
+          La loi sur l'égalité des chances de 2005 impose que tous les nouveaux
+          bâtiments ouverts au public ou à usage collectif soient accessibles
+          aux personnes handicapées. Cette loi marque une avancée importante en
+          matière d'inclusion et d'accessibilité en France, visant à garantir
+          que les infrastructures et services soient accessibles à tous.
+        </p>
+        <Link to="/">
+          <button>Suivant</button>
+        </Link>
+      </div>
+    </div>
+  );
+}
