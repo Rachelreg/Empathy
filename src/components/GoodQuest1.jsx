@@ -1,6 +1,7 @@
 import "../styles/GoodQuest1.css";
 import { Link } from "react-router-dom";
 import Bandeau from "../assets/Frame_79.png";
+import droite from "../assets/right-arrow.png";
 
 export default function GoodQuest1() {
   return (
@@ -24,7 +25,9 @@ export default function GoodQuest1() {
           <p className="pLink">Cliquez ici pour en savoir plus </p>
         </Link>
         <Link to="/" className="buttonGQ">
-          <button>Suivant</button>
+          <button>Suivant
+          <img src={droite} alt="flèche suivante" className="flechesuivante" />
+          </button>
         </Link>
       </div>
     </div>
