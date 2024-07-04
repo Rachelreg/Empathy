@@ -1,4 +1,3 @@
-import BadQuest2 from "../components/BadQuest2";
 import "../styles/Jeux.css";
 
 export default function Jeux() {
@@ -17,7 +16,6 @@ export default function Jeux() {
         <button className="button5_game"></button>
         <button className="button6_game"></button>
         <button className="button7_game"></button>
-        <BadQuest2 />
       </section>
     </>
   );
