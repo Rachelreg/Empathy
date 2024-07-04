@@ -16,7 +16,11 @@ export default function NavBar() {
           <img src={logoProfil} alt="logo profil" />
         </figure>
         <section className="langue_fr">
-          <p>FR</p>
+          <select id="langues" name="langues" className="butonLangue">
+            <option value="fr">FR</option>
+            <option value="en">EN</option>
+            <option value="es">ES</option>
+          </select>
         </section>
       </section>
     </nav>
