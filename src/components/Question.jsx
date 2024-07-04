@@ -2,6 +2,7 @@ import { useState } from "react";
 import avatar_female from "../assets/avatar_female.png";
 import GoodQuest1 from "../components/GoodQuest1.jsx";
 import BadQuest1 from "../components/BadQuest1.jsx";
+import droite from "../assets/right-arrow.png";
 
 import "../styles/Q1.css";
 
@@ -31,7 +32,7 @@ export default function Question() {
         src={avatar_female}
         alt="Illustration femme debout qui marche"
       />
-
+  
       {showModal ? (
         isCorrectAnswer ? (
           <GoodQuest1 />
@@ -43,8 +44,8 @@ export default function Question() {
           <h2>
             QUESTION N°1 : <br /> L’ACCÈS PMR
           </h2>
-
-          <form className="question" onSubmit={handleSubmit}>
+  
+          <form id="questionForm" className="question" onSubmit={handleSubmit}>
             <p>
               Quelle loi française rend obligatoire l'accessibilité des
               bâtiments neufs aux personnes handicapées?
@@ -82,13 +83,16 @@ export default function Question() {
               />
                La loi NOTRE de 2015
             </label>
-            <br />
-            <button className="buttonq1" type="submit">
-              Valider
-            </button>
           </form>
+          <section>
+            <button className="buttonq1" type="submit" form="questionForm">
+              Valider
+              <img src={droite} alt="flèche suivante" className="flechesuivante" />
+            </button>
+          </section>
         </div>
       )}
     </section>
   );
+  
 }

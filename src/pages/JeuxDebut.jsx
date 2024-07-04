@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom";
 import gauche from "../assets/left-arrow.png";
 import droite from "../assets/right-arrow.png";
+import avatar from "../assets/fauteuil_image.png";
 
 import "../styles/JeuxDebut.css";
-import avatar from "../assets/fauteuil_image.png";
 
 export default function JeuxDebut() {
   return (
