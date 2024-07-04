@@ -10,14 +10,10 @@ export default function Footer() {
   return (
     <footer className="footerContainer">
       <h1 className="center">
-        Leader Français du jeu digital en entreprise
+        Engagé pour un avenir inclusif et solidaire, ensemble faisons la
+        différence.
       </h1>
       <section className="rows">
-        <article className="button">
-          <Link to="mailto:regulierrachel@gmail.com" target="_blank">
-            <button>Demande de démo</button>
-          </Link>
-        </article>
         <nav className="firstCol">
           <Link to="/" alt="lien de sensibilisation">
             <p>Sensibilisation</p>
@@ -42,6 +38,7 @@ export default function Footer() {
             <p>CGV</p>
           </Link>
         </nav>
+          </section>
         <section className="allLogos">
           <Link
             to="https://github.com"
@@ -79,7 +76,6 @@ export default function Footer() {
             <img src={twitterx} alt="logo de X" />
           </Link>
         </section>
-      </section>
     </footer>
   );
 }

@@ -1,20 +1,30 @@
 .container_navbar {
   background: var(--primary-color);
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   color: var(--second-color);
-  height: 100px;
+  height: 150px;
+  padding: 1rem 3rem 1rem 3rem;
+
+  .logo_site img {
+    height: 4rem;
+  }
+
+  .right-section {
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+    
+    .logo_profil img {
+        width: 45px;
+    } 
+  
+    .langue_fr {
+      font-size: 24px;
+    }
+  }
+
 }
 
-.logo_profil img {
-    width: 53px;
-}
 
-.logo_site img {
-  height: 4rem;
-}
-
-.langue_fr {
-  font-size: 20px;
-}
