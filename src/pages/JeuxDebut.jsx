@@ -27,7 +27,7 @@ export default function JeuxDebut() {
             </p>
           </section>
           <section>
-            <Link to="/jeux">
+            <Link to="/jeux" className="nounderline">
               <button className="button_jeux_debut">
                 Cliquez ici pour démarrer l’aventure{" "}
                 <img src={droite} alt="flèche suivante" className="flechesuivante" />

@@ -46,27 +46,31 @@
   flex-direction: column;
   justify-content: space-around;
 }
-.button_jeux_debut {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-evenly;
 
-  width: 60%;
-  padding: 1rem;
-  font-size: 24px;
-  background: var(--primary-color);
-  color: var(--second-color);
-  border-radius: 2rem;
-  z-index: 1;
-  border: none;
-  margin-left: 1rem;
-  transition: 1s;
-
-  .flechesuivante {
-    width: 55px;
-    /* height: 18px; */
+.nounderline {
+  text-decoration: none;
+  
+  .button_jeux_debut {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+  
+    width: 60%;
+    padding: 0.5rem;
+    font-size: 24px;
+    background: var(--primary-color);
+    color: var(--second-color);
+    border-radius: 2rem;
+    z-index: 1;
+    border: none;
     margin-left: 1rem;
+    transition: 1s;
+  
+    .flechesuivante {
+      width: 55px;
+      margin-left: 1rem;
+    }
   }
 }
 
