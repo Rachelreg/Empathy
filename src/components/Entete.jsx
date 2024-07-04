@@ -1,3 +1,4 @@
+import Q1 from "../components/Q1";
 import { Link } from "react-router-dom"
 import "../styles/Entete.css"
 
@@ -10,6 +11,7 @@ export default function Entete() {
       <Link to="/jeuxdebut">
       <button className="button_game">Commencer la partie</button>
       </Link>
+      <Q1/>
     </section>
   )
 }

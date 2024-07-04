@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+
 import "../styles/JeuxDebut.css";
 import avatar from "../assets/fauteuil_image.png";
 
@@ -25,7 +26,10 @@ export default function JeuxDebut() {
         </section>
       <section className="avatar_container">
         <img src={avatar} alt="illustration personne à mobilité réduite" />
-      </section>
+
+      
+      </section> 
+      
     </section>
   );
 }
