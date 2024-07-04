@@ -5,6 +5,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Accueil from "./pages/Accueil.jsx";
 import Jeux from "./pages/Jeux.jsx";
 import JeuxDebut from "./pages/JeuxDebut.jsx";
+import DialogueBeforeQuest1 from "./pages/DialogueBeforeQuest1.jsx";
 
 const router = createBrowserRouter([
   {
@@ -22,6 +23,10 @@ const router = createBrowserRouter([
       {
         path:"/jeuxdebut",
         element: <JeuxDebut/>
+      },
+      {
+        path:"/beforequest1",
+        element:<DialogueBeforeQuest1/>
       }
     ],
   },

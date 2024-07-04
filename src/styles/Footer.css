@@ -4,16 +4,16 @@
   justify-content: center;
   background-color: var(--primary-color);
   color: var(--second-color);
-  height: 15rem;
-  
+  height: 20rem;
+
   h1 {
     height: 2rem;
     text-align: center;
     margin: 2rem;
-    font-size: 32px;
+    font-size: 30px;
   }
-  
-  a{
+
+  a {
     color: var(--second-color);
     text-decoration: none;
   }
@@ -23,7 +23,7 @@
     justify-content: space-around;
     align-items: center;
   }
-  
+
   button {
     padding: 0.7rem;
     background-color: var(--sixth-color);
@@ -44,8 +44,11 @@
   }
 
   img {
-    padding: 10px;
+    padding: 10px 25px;
+  }
+  .allLogos {
+    display: flex;
+    flex-direction: row;
+    margin-left: 11.5rem;
   }
 }
-
-
