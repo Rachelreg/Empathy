@@ -17,8 +17,8 @@
   font-size: 24px;
   margin-bottom: 10rem;
   padding-top: 5rem;
-  padding-left: 25rem;
-  padding-right: 25rem;
+  padding-left: 20rem;
+  padding-right: 20rem;
   text-align: justify;
   color: var(--primary-color);
 }
@@ -29,15 +29,15 @@
 
 .button_game {
   padding: 1.5rem;
-  background-color: var(--sixth-color);
+  background-color: var(--thrird-color);
   border: none;
   border-radius: 2rem;
-  color: var(--primary-color);
+  color: var(--second-color);
   font-size: 32px;
   transition: 1s;
 }
 
 .button_game:hover {
-  background-color: var(--primary-color);
-  color: var(--second-color);
+  background-color: var(--fourth-color);
+  color: var(--primary-color);
 }
