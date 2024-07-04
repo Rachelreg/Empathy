@@ -27,48 +27,56 @@
   display: flex;
 }
 
-.container_games img {
-  position: relative;
-  z-index: 1;
-  width: 50%;
-  height: 70%;
-}
-
 .w50 {
-  width: 50%;
+  width: 45%;
   display: flex;
   justify-content: center;
   align-items: end;
+
+  img {
+    position: relative;
+    z-index: 1;
+    width: 40%;
+    height: 60%;
+  }
 }
 
 .button_next_container {
   display: flex;
-  justify-content: center;
-}
-
-.button_next {
-  background-color: var(--sixth-color);
-  z-index: 1000;
-  padding: 1rem;
-  width: 200%;
-  border-radius: 2rem;
-  border: none;
-  font-size: 26px;
+  flex-direction: row;
   text-align: center;
-  display: flex;
-  justify-content: center;
-  margin-left: -2rem;
+  justify-content: space-evenly;
+
+  .button_next {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--sixth-color);
+    z-index: 1000;
+    padding: 1rem;
+    width: 200%;
+    border-radius: 2rem;
+    border: none;
+    font-size: 26px;
+    margin-top: 2rem;
+    margin-left: -5rem;
+
+    .flechesuivante {
+      width: 55px;
+      margin-left: 1rem;
+    }
+  }
 }
 
 .button_next_container a {
-    text-decoration: none;
-    z-index: 999;
+  text-decoration: none;
+  z-index: 999;
 }
 
 .button_next:hover {
-    background: var(--fourth-color);
-    transition: 1s;
-    color: white;
+  background: var(--fourth-color);
+  transition: 1s;
+  color: var(--second-color);
 }
 
 .chat1 {
@@ -76,13 +84,13 @@
   background: white;
   border-radius: 10px;
   padding: 15px;
-  color: black;
+  color: var(--primary-color);
   width: 15rem;
   height: 9rem;
   text-align: center;
   font-family: Arial, sans-serif;
   z-index: 998;
-  margin-bottom: 32rem;
+  margin-bottom: 35rem;
   margin-right: 1rem;
   margin-left: -18rem;
 }

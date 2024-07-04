@@ -6,6 +6,26 @@
   overflow: hidden;
   padding: 2rem;
   z-index: 0;
+
+  a {
+    width: 6rem;
+    text-underline-offset: 0.2em;
+  }
+  .box-retour {
+    display: flex;
+    flex-direction: row;
+
+    p {
+      color: var(--primary-color);
+      font-size: 18px;
+    }
+
+    .flecheretour {
+      width: 30px;
+      height: 15px;
+      margin-right: 0.5rem;
+    }
+  }
 }
 
 .container_games2::before {
@@ -25,43 +45,59 @@
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  margin-left: 3rem;
 }
-.button_jeux_debut {
-  width: 60%;
-  padding: 1rem;
-  font-size: 24px;
-  background: #1f3149;
-  color: white;
-  border-radius: 2rem;
-  text-align: center;
-  z-index: 1;
-  border: none;
-  margin-left: 6rem;
-  transition: 1s;
+
+.nounderline {
+  text-decoration: none;
+  
+  .button_jeux_debut {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+  
+    width: 60%;
+    padding: 0.5rem;
+    font-size: 24px;
+    background: var(--primary-color);
+    color: var(--second-color);
+    border-radius: 2rem;
+    z-index: 1;
+    border: none;
+    margin-left: 1rem;
+    transition: 1s;
+  
+    .flechesuivante {
+      width: 55px;
+      margin-left: 1rem;
+    }
+  }
 }
 
 .button_jeux_debut:hover {
-    background: #F2CBC2;
-    color: #1f3149;
+  background: var(--second-color);
+  color: var(--primary-color);
 }
 
 .mess_bvn {
   background: #f2cbc2;
   width: 80%;
   height: 30%;
-  margin-left: 3rem;
+  margin-left: 1rem;
   border-radius: 2rem;
   text-wrap: wrap;
-  text-align: center;
+  text-align: left;
   padding: 1rem;
   font-size: 24px;
 
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  align-items: center;
-  color: #1f3149;
+  color: var(--primary-color);
 
+  p {
+    margin-bottom: 1rem;
+  }
 }
 
 .avatar_container {

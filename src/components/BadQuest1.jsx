@@ -1,29 +1,28 @@
-import "../styles/BadQuest.css";
-import reponse from "../assets/tete-reponse.png";
+import droite from "../assets/right-arrow.png";
 import { Link } from "react-router-dom";
 
 export default function BadQuest1() {
   return (
-    <div className="badquest">
-      <img
-        className="avatar-badquest"
-        src={reponse}
-        alt="tete de l'avatar mauvaise réponse"
-      />
+    <div className="goodquest">
       <div className="modal">
         <h1>
           QUESTION N°1 <br /> L’ACCÈS PMR
         </h1>
-        <h2>Mauvaise réponse !</h2>
+        <figure className="titreGDQ">
+          <h2>Essaye encore !</h2>
+        </figure>
         <p>
           La loi sur l'égalité des chances de 2005 impose que tous les nouveaux
           bâtiments ouverts au public ou à usage collectif soient accessibles
-          aux personnes handicapées. Cette loi marque une avancée importante en
-          matière d'inclusion et d'accessibilité en France, visant à garantir
-          que les infrastructures et services soient accessibles à tous.
+          aux personnes handicapées.
         </p>
-        <Link to="/">
-          <button>Suivant</button>
+        <Link to="" classname="ppLink">
+          <p className="pLink">Cliquez ici pour en savoir plus </p>
+        </Link>
+        <Link to="/" className="buttonGQ">
+          <button>Suivant
+          <img src={droite} alt="flèche suivante" className="flechesuivante" />
+          </button>
         </Link>
       </div>
     </div>
