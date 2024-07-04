@@ -1,0 +1,15 @@
+.box-accroche{
+    height: 90rem;
+    background-color: var(--second-color);
+    display: flex;
+    flex-direction: column;
+
+    .woman-box{
+        display: flex;
+        flex-direction: row;
+    }
+    .men-box{
+        display: flex;
+        flex-direction:row-reverse;
+    }
+}
