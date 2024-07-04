@@ -69,7 +69,7 @@ export default function Question() {
                 required
                 onChange={handleOptionChange}
               />
-              La loi El Khomri de 2016
+               La loi El Khomri de 2016
             </label>
             <br />
             <label data-correct="false">
@@ -80,7 +80,7 @@ export default function Question() {
                 required
                 onChange={handleOptionChange}
               />
-              La loi NOTRE de 2015
+               La loi NOTRE de 2015
             </label>
             <br />
             <button className="buttonq1" type="submit">

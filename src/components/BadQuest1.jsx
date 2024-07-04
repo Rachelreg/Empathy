@@ -5,11 +5,6 @@ import { Link } from "react-router-dom";
 export default function BadQuest1() {
   return (
     <div className="badquest">
-      <img
-        className="avatar-badquest"
-        src={reponse}
-        alt="tete de l'avatar mauvaise réponse"
-      />
       <div className="modal">
         <h1>
           QUESTION N°1 <br /> L’ACCÈS PMR

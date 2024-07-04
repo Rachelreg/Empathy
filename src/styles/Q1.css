@@ -19,16 +19,6 @@
     z-index: 1000;
   }
 
-  .container_questionnaire::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(255, 255, 255, 0.5);
-  }
-
   .modal {
     background-color: #fffdf3;
     display: flex;
@@ -81,4 +71,17 @@
       transition: 1s;
     }
   }
+  input {
+    margin: 10px;
+  }
+}
+
+.container_questionnaire::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.5);
 }

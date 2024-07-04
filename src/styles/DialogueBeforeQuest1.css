@@ -58,17 +58,18 @@
   display: flex;
   justify-content: center;
   margin-left: -2rem;
+  margin-bottom: 1rem;
 }
 
 .button_next_container a {
-    text-decoration: none;
-    z-index: 999;
+  text-decoration: none;
+  z-index: 999;
 }
 
 .button_next:hover {
-    background: var(--fourth-color);
-    transition: 1s;
-    color: white;
+  background: var(--fourth-color);
+  transition: 1s;
+  color: white;
 }
 
 .chat1 {
@@ -82,7 +83,7 @@
   text-align: center;
   font-family: Arial, sans-serif;
   z-index: 998;
-  margin-bottom: 32rem;
+  margin-bottom: 40rem;
   margin-right: 1rem;
   margin-left: -18rem;
 }
