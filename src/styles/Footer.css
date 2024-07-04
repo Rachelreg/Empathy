@@ -1,0 +1,54 @@
+.footerContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--primary-color);
+  color: var(--second-color);
+  height: 20rem;
+
+  h1 {
+    height: 2rem;
+    text-align: center;
+    margin: 2rem;
+    font-size: 30px;
+  }
+
+  a {
+    color: var(--second-color);
+    text-decoration: none;
+  }
+  .rows {
+    display: flex;
+    height: 10rem;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  button {
+    padding: 0.7rem;
+    background-color: var(--sixth-color);
+    border: none;
+    border-radius: 2rem;
+    color: var(--primary-color);
+    font-size: 18px;
+    transition: 1s;
+  }
+  button:hover {
+    background-color: var(--fourth-color);
+    color: var(--second-color);
+  }
+
+  p {
+    padding: 10px;
+    font-size: 20px;
+  }
+
+  img {
+    padding: 10px 25px;
+  }
+  .allLogos {
+    display: flex;
+    flex-direction: row;
+    margin-left: 11.5rem;
+  }
+}

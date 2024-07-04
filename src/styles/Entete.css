@@ -1,0 +1,43 @@
+.container_entete {
+  display: flex;
+  padding: 10rem 7rem;
+  background-color: var(--second-color);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container_entete h1 {
+  font-size: 100px;
+  font-weight: bolder;
+  color: var(--primary-color);
+}
+
+.container_entete p {
+  font-size: 24px;
+  margin-bottom: 10rem;
+  padding-top: 5rem;
+  padding-left: 20rem;
+  padding-right: 20rem;
+  text-align: justify;
+  color: var(--primary-color);
+}
+
+.container_entete span {
+  color: var(--fiveth-color);
+}
+
+.button_game {
+  padding: 1.5rem;
+  background-color: var(--thrird-color);
+  border: none;
+  border-radius: 2rem;
+  color: var(--second-color);
+  font-size: 32px;
+  transition: 1s;
+}
+
+.button_game:hover {
+  background-color: var(--fourth-color);
+  color: var(--primary-color);
+}

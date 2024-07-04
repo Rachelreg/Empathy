@@ -1,0 +1,117 @@
+/* Réinitialisation des marges et paddings par défaut */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container_games3 {
+  background: #cdecf8 url("../assets/plan_game.png") no-repeat center;
+  background-size: 100% 100%;
+  width: 100vw;
+  height: 100vh;
+  padding: 2rem; /* Ajoute un padding interne au conteneur */
+  position: relative; /* Nécessaire pour positionner les éléments enfants */
+}
+
+.p_jeux {
+  position: absolute;
+  top: 10%;
+  left: 26%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  padding: 1rem;
+  background: #fff;
+  font-size: 24px;
+  border-radius: 2rem;
+  opacity: 90%;
+}
+
+.button1_game {
+  position: absolute;
+  width: 28rem;
+  height: 13rem;
+  top: 37%;
+  left: 40%;
+  transform: translate(-50%, -50%) rotate(33deg);
+  background: none;
+  border: none;
+  clip-path: polygon(
+    90% -34%,
+    7% 338%,
+    0% 99%,
+    21% 0%
+  ); /* Forme triangulaire */
+}
+
+.button2_game {
+  position: absolute;
+  width: 28rem;
+  height: 11rem;
+  top: 63%;
+  left: 33%;
+  transform: translate(-50%, -50%) rotate(33deg);
+  background: none;
+  border: none;
+  clip-path: polygon(80% -34%, 7% 337%, 5% 101%, 23% 0%);
+}
+
+.button3_game {
+  position: absolute;
+  width: 37rem;
+  height: 10rem;
+  top: 62%;
+  left: 62%;
+  transform: translate(-50%, -50%) rotate(32deg);
+  background: none;
+  border: none;
+  clip-path: polygon(74% -75%, 6% 337%, 6% 102%, 19% 4%);
+}
+
+.button4_game {
+  position: absolute;
+  width: 37rem;
+  height: 10rem;
+  top: 83%;
+  left: 62%;
+  transform: translate(-50%, -50%) rotate(147deg);
+  background: none;
+  border: none;
+  clip-path: polygon(37% -75%, 78% 309%, 16% 100%, 4% 0%);
+}
+
+.button5_game {
+  position: absolute;
+  width: 37rem;
+  height: 10rem;
+  top: 88%;
+  left: 33%;
+  transform: translate(-50%, -50%) rotate(147deg);
+  background: none;
+  border: none;
+  clip-path: polygon(37% -75%, 78% 309%, 20% 170%, 2% 0%);
+}
+
+.button6_game {
+  position: absolute;
+  width: 37rem;
+  height: 11rem;
+  top: 41%;
+  left: 61%;
+  transform: translate(-50%, -50%) rotate(147deg);
+  background: none;
+  border: none;
+  clip-path: polygon(36% -73%, 78% 309%, 20% 170%, 2% 0%);
+}
+
+.button7_game {
+  position: absolute;
+  width: 37rem;
+  height: 11rem;
+  top: 25%;
+  left: 48%;
+  transform: translate(-50%, -50%) rotate(147deg);
+  background: none;
+  border: none;
+  clip-path: polygon(36% -73%, 78% 309%, 20% 170%, 2% 0%);
+}

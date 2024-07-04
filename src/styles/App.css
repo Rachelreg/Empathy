@@ -1,0 +1,13 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: arial;
+}
+:root{
+    --primary-color: #1F3149;
+    --second-color: #FFFDF3;
+    --thrird-color: #23518C;
+    --fourth-color: #6D86A6;
+    --fiveth-color: #BF3434;
+    --sixth-color: #F2CBC2;
+}
