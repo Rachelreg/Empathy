@@ -14,7 +14,7 @@ export default function Accroche() {
           vers un monde meilleur, et cela commence par la formation et la
           sensibilisation. Ce jeu captivant vous révèle les enjeux de
           l'inclusion et vous donne les clés pour transformer votre
-          environnement avec empathie
+          environnement avec empathie.
         </p>
       </section>
       <section className="men-box">
