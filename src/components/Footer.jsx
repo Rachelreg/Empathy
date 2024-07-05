@@ -10,7 +10,7 @@ export default function Footer() {
   return (
     <footer className="footerContainer">
       <h1 className="center">
-        Engagé pour un avenir inclusif et solidaire, ensemble faisons la
+        Engagés pour un avenir inclusif et solidaire, ensemble faisons la
         différence.
       </h1>
       <section className="rows">
@@ -38,44 +38,44 @@ export default function Footer() {
             <p>CGV</p>
           </Link>
         </nav>
-          </section>
-        <section className="allLogos">
-          <Link
-            to="https://github.com"
-            target="_blank"
-            alt="lien vers la page d'accueil de Github"
-          >
-            <img src={github} alt="logo du github" />
-          </Link>
-          <Link
-            to="https://www.facebook.com/?locale=fr_FR"
-            target="_blank"
-            alt="lien vers la page de Facebook"
-          >
-            <img src={facebook} alt="logo de Facebook" />
-          </Link>
-          <Link
-            to="https://www.instagram.com"
-            target="_blank"
-            alt="lien vers la page d'instagram"
-          >
-            <img src={instagram} alt="logo d'instagram" />
-          </Link>
-          <Link
-            to="https://www.linkedin.com"
-            target="_blank"
-            alt="lien vers la page de Linkedin"
-          >
-            <img src={linkedin} alt="logo de Linkedin" />
-          </Link>
-          <Link
-            to="https://x.com/?lang=fr"
-            target="_blank"
-            alt="lien vers la page de X"
-          >
-            <img src={twitterx} alt="logo de X" />
-          </Link>
-        </section>
+      </section>
+      <section className="allLogos">
+        <Link
+          to="https://github.com"
+          target="_blank"
+          alt="lien vers la page d'accueil de Github"
+        >
+          <img src={github} alt="logo du github" />
+        </Link>
+        <Link
+          to="https://www.facebook.com/?locale=fr_FR"
+          target="_blank"
+          alt="lien vers la page de Facebook"
+        >
+          <img src={facebook} alt="logo de Facebook" />
+        </Link>
+        <Link
+          to="https://www.instagram.com"
+          target="_blank"
+          alt="lien vers la page d'instagram"
+        >
+          <img src={instagram} alt="logo d'instagram" />
+        </Link>
+        <Link
+          to="https://www.linkedin.com"
+          target="_blank"
+          alt="lien vers la page de Linkedin"
+        >
+          <img src={linkedin} alt="logo de Linkedin" />
+        </Link>
+        <Link
+          to="https://x.com/?lang=fr"
+          target="_blank"
+          alt="lien vers la page de X"
+        >
+          <img src={twitterx} alt="logo de X" />
+        </Link>
+      </section>
     </footer>
   );
 }
