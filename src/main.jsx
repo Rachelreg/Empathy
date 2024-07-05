@@ -6,6 +6,7 @@ import Accueil from "./pages/Accueil.jsx";
 import Jeux from "./pages/Jeux.jsx";
 import JeuxDebut from "./pages/JeuxDebut.jsx";
 import DialogueBeforeQuest1 from "./pages/DialogueBeforeQuest1.jsx";
+import Question from "./components/Question.jsx";
 
 const router = createBrowserRouter([
   {
@@ -27,6 +28,10 @@ const router = createBrowserRouter([
       {
         path:"/beforequest1",
         element:<DialogueBeforeQuest1/>
+      },
+      {
+        path:"/question1",
+        element:<Question/>
       }
     ],
   },

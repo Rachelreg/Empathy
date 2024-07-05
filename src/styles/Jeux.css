@@ -8,23 +8,46 @@
 .container_games3 {
   background: #cdecf8 url("../assets/plan_game.png") no-repeat center;
   background-size: 100% 100%;
+  display: flex;
   width: 100vw;
   height: 100vh;
-  padding: 2rem; /* Ajoute un padding interne au conteneur */
+  padding: 2rem;
   position: relative; /* Nécessaire pour positionner les éléments enfants */
-}
 
-.p_jeux {
-  position: absolute;
-  top: 10%;
-  left: 26%;
-  transform: translate(-50%, -50%);
-  width: 50%;
-  padding: 1rem;
-  background: #fff;
-  font-size: 24px;
-  border-radius: 2rem;
-  opacity: 90%;
+  a {
+    width: 6rem;
+    text-underline-offset: 0.2em;
+  }
+  .box-retourJeux {
+    display: flex;
+    flex-direction: row;
+
+    p {
+      color: var(--primary-color);
+      font-size: 18px;
+    }
+
+    .flecheretour {
+      width: 30px;
+      height: 15px;
+      margin-right: 0.5rem;
+    }
+  }
+
+  .p_jeux {
+    display: flex;
+
+    position: absolute;
+    top: 7%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 45%;
+    padding: 1rem;
+    background: #fff;
+    font-size: 24px;
+    border-radius: 2rem;
+    opacity: 90%;
+  }
 }
 
 .button1_game {

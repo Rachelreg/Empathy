@@ -19,9 +19,11 @@
     .logo_profil img {
         width: 45px;
     } 
-  
-    .langue_fr {
-      font-size: 24px;
+
+    .butonLangue{
+      height: 2.5rem;
+      width: 4rem;
+      padding: 5px;
     }
   }
 
